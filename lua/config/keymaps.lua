@@ -9,6 +9,7 @@ vim.keymap.del("n", "<S-l>")
 
 -- cannot figure out why 's' was remapped to search.. that's what slash is for.. delete it, so it can be used to substitute text
 vim.keymap.del("v", "s")
+vim.keymap.del("n", "s")
 
 -- remap escape key
 vim.keymap.set("i", "jk", "<Esc>")

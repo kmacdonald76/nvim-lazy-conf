@@ -8,7 +8,7 @@ Instructions:
 
 Pre-req: neovim
 
-1. delete or backup nvim config folder:  
+1. Delete or backup nvim config folder:  
 
     ```bash
       mv ~/.config/nvim ~/tmp/nvim_backup
