@@ -8,14 +8,19 @@ Instructions:
 
 Pre-req: neovim
 
-1. ```bash
+1. delete or backup nvim config folder:  
+
+    ```bash
       mv ~/.config/nvim ~/tmp/nvim_backup
     ```
-    *(or delete it)*
 
-2. ```bash
+2. Install configuration files:  
+    ```bash
       git clone git@github.com:kmacdonald76/nvim-lazy-conf.git ~/.config/nvim
     ```
 
-3. restart neovim or run `:Lazy sync`
+3. Re-open neovim, or run:  
+    ```bash
+    :Lazy sync
+    ```
     ```
