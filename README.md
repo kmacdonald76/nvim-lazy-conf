@@ -23,4 +23,3 @@ Pre-req: neovim
     ```bash
     :Lazy sync
     ```
-    ```
