@@ -10,6 +10,12 @@ Instructions:
 
   - neovim
   - java-21
+  - fd-find:  
+
+    ```bash
+    sudo apt install fd-find
+    ```
+
   - [nerd fonts](https://www.nerdfonts.com/):  
 
     ```bash
